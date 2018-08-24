@@ -11,5 +11,11 @@ public class Tst {
 		double res=Operaciones.SUMA.resultado(a,b);
 		System.out.println(res);
 		System.out.println("Hola Mundo!");
+		
+		Operaciones ope[] = Operaciones.values();
+		for(int i=0; i<ope.length; i++)
+		{
+			System.out.println(ope[i].name());
+		}
 	}
 }
