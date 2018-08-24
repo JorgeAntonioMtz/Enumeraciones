@@ -17,10 +17,12 @@ public class Tst {
 			System.out.println(ope.name());
 		}
 		
+		/*Es lo mismo que el ForEach
 		Operaciones ope[] = Operaciones.values();
 		for(int i=0; i<ope.length; i++)
 		{
 			System.out.println(ope[i].name());
 		}
+		*/
 	}
 }
